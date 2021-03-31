@@ -1,13 +1,11 @@
 package com.osher.coupons.repositories;
 
-import java.util.List;
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 import com.osher.coupons.entities.Company;
-import com.osher.coupons.entities.Coupon;
 
 public interface CompanyRepository extends JpaRepository<Company, Integer> {
 
